@@ -1,12 +1,12 @@
 <?php
 	if($_POST)
-	{
-	$numl = $_POST
-	['Numero 1'];
-	$num2 = $_POST
-	['Numero 2'];
-	$suma = $numl
-	+$num2;
-	echo"La suma de".$numl."y la de ".$num2."La suma es de ;".$suma
+	{	
+		$num1 = $_POST
+		['numero1'];
+		$num2 = $_POST
+		['numero2'];
+		$suma = $num1 
+		+ $num2;
+		echo "La suma de ".$num1." y ".$num2." es ".$suma; 
 	}
 ?>
